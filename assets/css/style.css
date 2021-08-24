@@ -41,7 +41,7 @@ ul {
     height: 450px;
     width: 100vw;
     background-color: #000000;
-    opacity: 0.7;
+    opacity: 0.6;
     z-index: -1;
 }
 
@@ -71,13 +71,33 @@ ul {
 
 .img-button {
     height: 250px;
-    border: solid 2px red;
+    position: relative;
 }
+
+/* .img-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+    width: 100vw;
+    background-color: #000000;
+    opacity: 0.7;
+    cursor: pointer;
+} */
 
 .img-button ul li img {
     height: 250px;
     width: calc(100%/2);
     object-fit: cover;
-    object-position: 50% 60%;
     float: left;
+    filter: saturate(20%);
+    transition: filter 1s;
 }
+.img-button ul li img:hover {
+    filter: saturate(100%);
+}
+
+
+
+/* desk and bed lamp */
