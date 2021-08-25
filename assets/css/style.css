@@ -60,8 +60,8 @@ ul {
 }
 
 .header-div nav .row .logo a {
-    color: #000;
-    text-shadow: 3px 3px 3px #fff;
+    color: transparent;
+    -webkit-text-stroke: 0.15px #fff;
 }
 
 .header-div nav .row ul {
@@ -86,12 +86,26 @@ ul {
 .header-div .hero h1 {
     text-align: center;
     color: #fff;
+    margin: 15px 0;
+    font-size: 3rem;
 }
 
-.header-div .hero h1 span{
-    font-size: 5rem;
-    color: transparent;
-    text-shadow: 4px 4px 3px #fff;
+.header-div .hero h1 .light{
+    font-size: 6rem;
+    color: #fff;
+    text-shadow: 0 0.3rem 1rem #ffff61;
+}
+
+.header-div .hero h1 .darkness{
+    color: #000;
+    text-shadow: 0 0.25rem 0.2rem #323232;
+    /* text-shadow: 0.25rem 0.25rem 0.2rem #323232; */
+}
+
+.header-div .hero h1 .love{
+    /* color: #ca0065; */
+    color: #fdf5f5;
+    text-shadow: 0 0.25rem 0.4rem #ff66b2;
 }
 
 .img-button {
