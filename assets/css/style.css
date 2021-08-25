@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    /* font-family: 'Montserrat', sans-serif; */
-    /* font-family: 'Poppins', sans-serif; */
-    /* font-family: 'Raleway', sans-serif; */
 }
 
 body {
@@ -81,6 +78,8 @@ ul {
 .header-div nav .row ul li a {
     color: #fff;
     cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.07em;
 }
 
 .header-div .hero h1 {
@@ -137,20 +136,22 @@ ul {
 
 .img-button ul li a .img-button-deskbed-p {
     position: absolute;
-    /* top: 50%; */
+    top: 50%;
     left: 25%;
-    transform: translate(-50%, -25%);
+    transform: translate(-50%, -50%);
     color: #fff;
     font-size: 1.5rem;
+    text-shadow: 0.25rem 0.25rem 0.25rem #000;
 }
 
 .img-button ul li a .img-button-pendant-p {
     position: absolute;
-    /* top: 50%; */
+    top: 50%;
     left: 75%;
-    transform: translate(-50%, -75%);
+    transform: translate(-50%, -50%);
     color: #fff;
     font-size: 1.5rem;
+    text-shadow: 0.25rem 0.25rem 0.25rem #000;
 }
 
 .img-button ul li img:hover {
@@ -171,6 +172,7 @@ ul {
 
 .product-showcase .title {
     color: #fff;
+    letter-spacing: 0.1em;
 }
 
 .product-showcase .img-row ul {
@@ -185,13 +187,36 @@ ul {
 .product-showcase .img-row ul li figure {
     margin: 20px;
     color: #fff;
+    /* height: 200px;
+    width: 200px; */
+    /* overflow: hidden; */
 }
 
-.product-showcase .img-row ul li figure img {
+.product-showcase .img-row ul li figure .img-div {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.product-showcase .img-row ul li figure .img-div img {
     height: 200px;
     width: 200px;
     object-fit: cover;
     cursor: pointer;
+    /* box-shadow: #fff 0px 0px 5px 0px, #fff 0px 0px 1px 0px; */
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+.product-showcase .img-row ul li figure .img-div img:hover {
+    transform: scale(1);
+    /* filter: brightness(1.2); */
+    transition: all 0.7s;
+}
+
+.product-showcase .img-row ul li figure figcaption {
+    margin-top: 10px;
 }
 
 .view-more-button {
@@ -210,9 +235,9 @@ ul {
 }
 
 .view-more-button:hover {
-    color: #ffff6f;
-    border-top: solid 2px #ffff6f;
-    border-bottom: solid 2px #ffff6f;
+    border-top: solid 2px #ffff8f;
+    border-bottom: solid 2px #ffff8f;
+    text-shadow: 0 0.3rem 1rem #ffff61;
 }
 
 
@@ -232,18 +257,6 @@ ul {
     height: 700px;
     z-index: 0;
 }
-
-/* #pendant::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 700px;
-    width: 100vw;
-    background-color: #000000;
-    opacity: 0.7;
-    z-index: -1;
-} */
 
 
 
@@ -265,6 +278,7 @@ ul {
 
 .business .title-business {
     color: #fff;
+    letter-spacing: 0.1em;
 }
 
 .business .img-row ul {
@@ -276,15 +290,13 @@ ul {
     float: left;
 }
 
-.business .img-row ul li figure {
-    margin: 20px;
-    color: #fff;
-}
-
 .business .img-row ul li figure img {
-    height: 200px;
-    width: 400px;
+    height: 230px;
+    width: 425px;
     object-fit: cover;
+    box-shadow: 0.25rem 0.25rem 0.5rem #323232;
+    border: solid 5px #fff;
+    margin: 15px 0;
 }
 
 
@@ -321,6 +333,7 @@ ul {
 
 .contact .title {
     color: #fff;
+    letter-spacing: 0.1em;
 }
 
 .contact .form-field{
