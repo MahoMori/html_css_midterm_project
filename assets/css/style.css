@@ -112,7 +112,6 @@ ul {
 }
 
 .img-button ul li a img {
-    height: 250px;
     width: calc(100%/2);
     object-fit: cover;
     float: left;
