@@ -31,9 +31,8 @@ ul {
 /* header */
 .header-div {
     background: url("../img/background.jpg") no-repeat center center/cover;
-    /* background-color: #191919; */
     height: 450px;
-    width: 100%;
+    max-width: 100%;
     position: relative;
     z-index: 0;
     font-family: 'Raleway', sans-serif;
@@ -112,18 +111,6 @@ ul {
     position: relative;
 }
 
-/* .img-button::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 250px;
-    width: 100vw;
-    background-color: #000000;
-    opacity: 0.7;
-    cursor: pointer;
-} */
-
 .img-button ul li a img {
     height: 250px;
     width: calc(100%/2);
@@ -163,7 +150,6 @@ ul {
 /* product-showcase */
 .product-showcase {
     text-align: center;
-    /* border: solid red 2px; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -187,9 +173,6 @@ ul {
 .product-showcase .img-row ul li figure {
     margin: 20px;
     color: #fff;
-    /* height: 200px;
-    width: 200px; */
-    /* overflow: hidden; */
 }
 
 .product-showcase .img-row ul li figure .img-div {
@@ -204,7 +187,6 @@ ul {
     width: 200px;
     object-fit: cover;
     cursor: pointer;
-    /* box-shadow: #fff 0px 0px 5px 0px, #fff 0px 0px 1px 0px; */
     transform: scale(1.1);
     transition: all 0.7s;
 }
