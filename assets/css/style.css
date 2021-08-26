@@ -97,11 +97,9 @@ ul {
 .header-div .hero h1 .darkness{
     color: #000;
     text-shadow: 0 0.25rem 0.2rem #323232;
-    /* text-shadow: 0.25rem 0.25rem 0.2rem #323232; */
 }
 
 .header-div .hero h1 .love{
-    /* color: #ca0065; */
     color: #fdf5f5;
     text-shadow: 0 0.25rem 0.4rem #ff66b2;
 }
@@ -112,12 +110,12 @@ ul {
 }
 
 .img-button ul li a img {
-    width: calc(100%/2);
+    width: calc(100% / 2);
+    height: 250px;
     object-fit: cover;
     float: left;
     filter: saturate(20%);
-    transition: filter 1s;
-    position: relative;
+    transition: all 1s;
 }
 
 .img-button ul li a .img-button-deskbed-p {
@@ -333,7 +331,6 @@ ul {
 .contact .form-field form .form-upper {
     display: flex;
     flex-wrap: wrap;
-    /* border: solid blue 2px; */
     height: 40%;
 }
 
