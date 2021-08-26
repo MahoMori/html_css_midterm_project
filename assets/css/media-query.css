@@ -87,9 +87,6 @@
     
 
     footer {
-        background-color: #191919;
-        width: 100%;
-        position: relative;
         height: 220px;
     }
 
@@ -99,7 +96,15 @@
     }
 
     .footer .footer-list {
-        margin: 10px 0;
+        float: none;
+        margin: auto;
+        display: block;
+    }
+
+    .footer .social-media {
+        float: none;
+        border-left: none;
+        padding: 10px 0;
     }
 
 }
@@ -131,7 +136,14 @@
 
 
     .footer {
-        width: 70%;
+        width: 80%;
+        
+    }
+    
+
+    .footer .social-media {
+
+        border: solid red 2px;
     }
     
 }

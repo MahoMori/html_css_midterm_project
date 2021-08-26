@@ -406,18 +406,35 @@ footer {
 
 .footer {
     position: absolute;
-    width: 50%;
+    width: 55%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    justify-content: space-between;
-    display: flex;
 }
 
 .footer .footer-list {
     text-align: center;
+    width: calc((100% / 3) * 2);
+    float: left;
+
+    justify-content: space-between;
+    display: flex;
 }
 
 .footer .footer-list a {
     color: #fff;
+}
+
+.footer .social-media {
+    border-left: solid #fff 3px;
+    float: right;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.footer .social-media i {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0 10px;
+    cursor: pointer;
 }
