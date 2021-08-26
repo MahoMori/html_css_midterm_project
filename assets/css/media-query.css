@@ -125,7 +125,7 @@
 
 
     .contact .form-field{
-        width: 90%;
+        width: 80%;
     }
 
 
@@ -138,6 +138,23 @@
 
 /* Normal */
 @media (min-width: 769px) and (max-width: 1200px){
+
+    .product-showcase .img-row ul li figure {
+        margin: 20px 50px;
+    }
+    
+
+
+    .contact .form-field{
+        width: 55%;
+    }
+
+
+
+    .footer {
+        width: 55%;
+    }
+
 }
 
 @media (min-width: 1201px){

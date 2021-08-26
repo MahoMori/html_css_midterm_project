@@ -194,7 +194,6 @@ ul {
 
 .product-showcase .img-row ul li figure .img-div img:hover {
     transform: scale(1);
-    /* filter: brightness(1.2); */
     transition: all 0.7s;
 }
 
