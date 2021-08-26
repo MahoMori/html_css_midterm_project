@@ -321,7 +321,7 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    border: solid red 2px;
+    /* border: solid red 2px; */
 }
 
 .contact .title {
@@ -334,7 +334,7 @@ ul {
     width: 40%;
     margin: auto;
 
-    border: solid greenyellow 2px;
+    /* border: solid greenyellow 2px; */
 }
 
 .contact .form-field form {
@@ -344,12 +344,12 @@ ul {
 .contact .form-field form .form-upper {
     display: flex;
     flex-wrap: wrap;
-    border: solid blue 2px;
+    /* border: solid blue 2px; */
     height: 40%;
 }
 
 .contact .form-field form .form-lower {
-    border: solid blue 2px;
+    /* border: solid blue 2px; */
     height: 60%;
 }
 

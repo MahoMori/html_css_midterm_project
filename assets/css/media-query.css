@@ -4,64 +4,35 @@
     .header-div nav .row .logo {
         text-align: center;
         float: none;
-
-        /* padding: 1rem 1rem 1rem 0; */
     }
 
     .header-div nav .row ul {
         float: none;
         display: flex;
         justify-content: space-between;
-
-        /* color: #fff; */
     }
 
     .header-div nav .row ul li {
         float: left;
         padding: 0.5rem;
-    }
-    
+    }    
 
     .img-button {
         height: 180px;
-
-        /* position: relative; */
     }
     
     .img-button ul li a img {
         height: 180px;
-
-        /* width: calc(100%/2);
-        object-fit: cover;
-        float: left;
-        filter: saturate(20%);
-        transition: filter 1s;
-        position: relative; */
     }
     
     .img-button ul li a .img-button-deskbed-p {
         width: calc(100%/2.5);
-        font-size: 1rem;
-
-        /* position: absolute;
-        top: 50%;
-        left: 25%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-        font-size: 1.5rem;
-        text-shadow: 0.25rem 0.25rem 0.25rem #000; */
+        text-align: center;
+        font-size: 1.2rem;
     }
     
     .img-button ul li a .img-button-pendant-p {
-        font-size: 1rem;
-        
-        /* position: absolute;
-        top: 50%;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-        font-size: 1.5rem;
-        text-shadow: 0.25rem 0.25rem 0.25rem #000; */
+        font-size: 1.2rem;
     }
 
 
@@ -109,6 +80,10 @@
 
 
 
+    /* contact */
+    .contact .form-field{
+        width: 95%;
+    }
 
 
     
