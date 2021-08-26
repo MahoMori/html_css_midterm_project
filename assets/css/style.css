@@ -184,6 +184,7 @@ ul {
 .product-showcase .img-row ul li figure .img-div img {
     height: 200px;
     width: 200px;
+    border-radius: 3px;
     object-fit: cover;
     cursor: pointer;
     transform: scale(1.1);
@@ -345,7 +346,7 @@ ul {
     border-top: none;
     border-bottom: solid 2px #fff;
     border-left: none;
-    border-right: none;
+    border-right: none !important;
     outline: none;
     background: transparent;
     padding-top: 15px;
