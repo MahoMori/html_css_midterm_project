@@ -126,9 +126,34 @@
         margin: 15px 0; */
     }
 
+
+
+    
+
     .contact {
         display: none;
     }
+
+
+
+
+    /* footer */
+    footer {
+        background-color: #191919;
+        width: 100%;
+        position: relative;
+        height: 220px;
+    }
+
+    .footer {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .footer .footer-list {
+        margin: 10px 0;
+    }
+
 }
 
 /* Tablet */

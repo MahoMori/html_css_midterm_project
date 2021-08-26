@@ -405,7 +405,10 @@ footer {
     display: flex;
 }
 
+.footer .footer-list {
+    text-align: center;
+}
+
 .footer .footer-list a {
     color: #fff;
-    margin: 20px 0;
 }
