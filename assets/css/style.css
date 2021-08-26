@@ -160,17 +160,23 @@ ul {
     letter-spacing: 0.1em;
 }
 
+.product-showcase .img-row {
+    width: 95%;
+    margin: auto;
+}
+
 .product-showcase .img-row ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.product-showcase .img-row ul li {
+/* .product-showcase .img-row ul li {
     float: left;
-}
+} */
 
 .product-showcase .img-row ul li figure {
-    margin: 20px;
+    margin: 20px 100px;
     color: #fff;
 }
 
@@ -246,7 +252,7 @@ ul {
 #business {
     position: relative;
     background-color: #4c4c4c;
-    height: 650px;
+    height: 700px;
 }
 
 .business {
@@ -260,6 +266,10 @@ ul {
 .business .title-business {
     color: #fff;
     letter-spacing: 0.1em;
+}
+
+.business .title-business h3 {
+    margin: 10px 0;
 }
 
 .business .img-row ul {
@@ -310,6 +320,8 @@ ul {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    border: solid red 2px;
 }
 
 .contact .title {
@@ -318,15 +330,31 @@ ul {
 }
 
 .contact .form-field{
-    height: 350px;
-    width: 50%;
+    height: 400px;
+    width: 40%;
     margin: auto;
+
+    border: solid greenyellow 2px;
 }
 
-.contact .form-field form input{
-    display: block;
-    width: 500px;
-    height: 50px;
+.contact .form-field form {
+    height: 100%;
+}
+
+.contact .form-field form .form-upper {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid blue 2px;
+    height: 40%;
+}
+
+.contact .form-field form .form-lower {
+    border: solid blue 2px;
+    height: 60%;
+}
+
+.contact .form-field form .form-upper input{
+    width: 100%;
     color: #fff;
     font-size: 1rem;
     border-top: none;
@@ -335,20 +363,17 @@ ul {
     border-right: none;
     outline: none;
     background: transparent;
-    margin: 20px auto;
     padding-top: 15px;
     padding-left: 5px;
     font-family: 'Poppins', sans-serif;
 }
 
-.contact .form-field form input::placeholder{
+.contact .form-field form .form-upper input::placeholder{
     color: #b6b5b5b7;
 }
 
-.contact .form-field form select{
-    display: block;
-    width: 500px;
-    height: 50px;
+.contact .form-field form .form-upper select{
+    width: 100%;
     color: #fff;
     font-size: 1rem;
     border-top: none;
@@ -357,30 +382,28 @@ ul {
     border-right: none;
     outline: none;
     background: transparent;
-    margin: 20px auto;
     padding-top: 15px;
     font-family: 'Poppins', sans-serif;
 }
 
-.contact .form-field form select option{
+.contact .form-field form .form-upper select option{
     color: #fff;
     background-color: #191919
 }
 
-.contact .form-field form textarea{
-    display: block;
-    width: 500px;
-    height: 150px;
+.contact .form-field form .form-lower textarea{
+    width: 100%;
+    height: calc(100% - 10px);
     outline: none;
     background-color: #fff;
     padding: 5px 4px;
     resize: none;
     font-size: 1rem;
-    margin: 20px auto;
+    margin-top: 10px;
     font-family: 'Poppins', sans-serif;
 }
 
-.contact .form-field form textarea::placeholder{
+.contact .form-field form .form-lower textarea::placeholder{
     font-family: 'Poppins', sans-serif;
 }
 
