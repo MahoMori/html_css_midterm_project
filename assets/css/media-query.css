@@ -96,15 +96,12 @@
     }
 
     .footer .footer-list {
-        float: none;
-        margin: auto;
-        display: block;
+        padding: 15px 0;
+        height: 80%;
     }
 
-    .footer .social-media {
-        float: none;
-        border-left: none;
-        padding: 10px 0;
+    .footer .social-media {justify-content: center;
+        height: 20%;
     }
 
 }
@@ -136,15 +133,8 @@
 
 
     .footer {
-        width: 80%;
-        
-    }
-    
-
-    .footer .social-media {
-
-        border: solid red 2px;
-    }
+        width: 85%;
+    }    
     
 }
 
@@ -164,7 +154,7 @@
 
 
     .footer {
-        width: 55%;
+        width: 65%;
     }
 
 }

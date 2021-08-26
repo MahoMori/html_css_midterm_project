@@ -410,15 +410,22 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer .footer-list {
     text-align: center;
     width: calc((100% / 3) * 2);
+    height: 100%;
     float: left;
 
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer .footer-list a {
@@ -430,6 +437,10 @@ footer {
     float: right;
     padding-left: 20px;
     text-align: center;
+
+    height: 75%;
+    display: flex;
+    align-items: center;
 }
 
 .footer .social-media i {
