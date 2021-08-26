@@ -171,10 +171,6 @@ ul {
     justify-content: space-evenly;
 }
 
-/* .product-showcase .img-row ul li {
-    float: left;
-} */
-
 .product-showcase .img-row ul li figure {
     margin: 20px 100px;
     color: #fff;
@@ -240,9 +236,7 @@ ul {
 #pendant {
     position: relative;
     background-color: #323232;
-    /* background: url(../img/background-pendant.jpg) no-repeat center center/cover; */
     height: 700px;
-    z-index: 0;
 }
 
 
@@ -320,8 +314,6 @@ ul {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    /* border: solid red 2px; */
 }
 
 .contact .title {
@@ -333,8 +325,6 @@ ul {
     height: 400px;
     width: 40%;
     margin: auto;
-
-    /* border: solid greenyellow 2px; */
 }
 
 .contact .form-field form {
@@ -349,7 +339,6 @@ ul {
 }
 
 .contact .form-field form .form-lower {
-    /* border: solid blue 2px; */
     height: 60%;
 }
 
