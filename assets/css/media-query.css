@@ -65,8 +65,25 @@
     #business {
         position: relative;
         background-color: #4c4c4c;
-        height: 1000px;
+        height: 1450px;
     }
+
+    .business {
+        height: 95%;
+    }
+
+    .business .description {
+        float: block;
+        width: 100%;
+        padding: 0;
+        height: 30%;
+    }
+    
+    .business .img-row  {
+        float: block;
+        width: 100%;
+    }
+    
 
     .business .img-row ul {
         flex-wrap: wrap;
@@ -123,8 +140,27 @@
 
 
     #business {
-        height: 650px;
+        height: 850px;
     }
+
+    .business {
+        height: 95%;
+    }
+
+    .business .description {
+        float: block;
+        width: 100%;
+        padding: 0;
+        height: 30%;
+    }
+    
+    .business .img-row  {
+        float: block;
+        width: 100%;
+    }
+
+
+
 
     .business .img-row ul li figure img {
         height: calc(230px / 1.25);
@@ -152,6 +188,27 @@
         margin: 20px 50px;
     }
     
+
+    #business {
+        height: 900px;
+    }
+
+    .business {
+        height: 95%;
+    }
+
+    .business .description {
+        float: block;
+        width: 100%;
+        padding: 0;
+        height: 20%;
+        padding: 25px 0;
+    }
+    
+    .business .img-row  {
+        float: block;
+        width: 100%;
+    }
 
 
     .contact .form-field{
