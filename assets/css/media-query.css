@@ -98,10 +98,17 @@
     .footer .footer-list {
         padding: 15px 0;
         height: 80%;
+        width: 100%;
+        float: none;
+        display: inline-block;
     }
 
-    .footer .social-media {justify-content: center;
+    .footer .social-media {
+        justify-content: center;
         height: 20%;
+        float: none;
+        padding: 0;
+        border-left: none;
     }
 
 }
