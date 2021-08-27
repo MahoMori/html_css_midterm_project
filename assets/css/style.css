@@ -216,8 +216,8 @@ ul {
 }
 
 .view-more-button:hover {
-    border-top: solid 2px #ffff8f;
-    border-bottom: solid 2px #ffff8f;
+    /* border-top: solid 2px #ffff8f; */
+    /* border-bottom: solid 2px #ffff8f; */
     text-shadow: 0 0.3rem 1rem #ffff61;
 }
 
@@ -312,7 +312,7 @@ ul {
 #contact {
     position: relative;
     background: url(../img/background-contact.jpg) no-repeat center center/cover;
-    height: 500px;
+    height: 550px;
     width: 100%;
     z-index: 0;
 }
@@ -322,7 +322,7 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
-    height: 500px;
+    height: 550px;
     width: 100%;
     background-color: #000000;
     opacity: 0.6;
@@ -343,7 +343,7 @@ ul {
 }
 
 .contact .form-field{
-    height: 400px;
+    height: 450px;
     width: 40%;
     margin: auto;
 }
@@ -355,11 +355,11 @@ ul {
 .contact .form-field form .form-upper {
     display: flex;
     flex-wrap: wrap;
-    height: 40%;
+    height: 32.5%;
 }
 
 .contact .form-field form .form-lower {
-    height: 60%;
+    height: 52.5%;
 }
 
 .contact .form-field form .form-upper input{
@@ -416,6 +416,22 @@ ul {
     font-family: 'Poppins', sans-serif;
 }
 
+.contact .form-field .send-button {
+    color: #fff;
+    font-size: 1.25rem;
+    border: solid 2px #fff;
+    outline: none;
+    background: transparent;
+    height: 50px;
+    width: 125px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.contact .form-field .send-button:hover {
+    text-shadow: 0 0.3rem 1rem #ffff61;
+}
 
 
 
