@@ -166,9 +166,30 @@
 
 }
 
-@media (min-width: 1201px){
+@media (min-width: 1201px) and (max-width: 1440px) {
+
+    .img-button ul li a .img-button-deskbed-p {
+        font-size: 2rem;
+    }
+    
+    .img-button ul li a .img-button-pendant-p {
+        font-size: 2rem;
+    }
 }
 
-/* Landscape */
-@media (max-height: 1024px){
+
+@media (min-width: 1441px){
+
+    .img-button ul li a .img-button-deskbed-p {
+        font-size: 2.5rem;
+    }
+    
+    .img-button ul li a .img-button-pendant-p {
+        font-size: 2.5rem;
+    }
+
+    .product-showcase .img-row ul li figure {
+        margin: 80px;
+    }
+
 }
