@@ -295,12 +295,14 @@ ul {
 }
 
 .business .img-row ul {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 
 .business .img-row ul li {
     float: left;
+    display: block;
+    margin: auto;
 }
 
 .business .img-row ul li figure img {

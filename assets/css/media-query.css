@@ -92,13 +92,14 @@
     
 
     .business .img-row ul {
-        flex-wrap: wrap;
+        grid-template-columns: repeat(1,1fr);
     }
 
     .business .img-row ul li figure img {
         height: calc(230px / 1.5);
         width: calc(425px / 1.5);
     }
+    
 
 
 
