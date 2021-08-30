@@ -164,13 +164,12 @@ ul {
 }
 
 .product-showcase .img-row ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .product-showcase .img-row ul li figure {
-    margin: 20px 100px;
+    margin: 20px;
     color: #fff;
 }
 
@@ -179,6 +178,8 @@ ul {
     width: 200px;
     overflow: hidden;
     border-radius: 3px;
+    display: block;
+    margin: auto;
 }
 
 .product-showcase .img-row ul li figure .img-div img {

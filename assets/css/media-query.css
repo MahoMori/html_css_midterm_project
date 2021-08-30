@@ -38,6 +38,9 @@
 
 
 
+    .product-showcase .img-row ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     .product-showcase .img-row ul li figure {
         margin: 20px;
@@ -187,11 +190,6 @@
 /* Normal */
 @media (min-width: 769px) and (max-width: 1200px){
 
-    .product-showcase .img-row ul li figure {
-        margin: 20px 50px;
-    }
-    
-
     #business {
         height: 900px;
     }
@@ -248,8 +246,8 @@
         font-size: 2.5rem;
     }
 
-    .product-showcase .img-row ul li figure {
-        margin: 80px;
+    .product-showcase .img-row ul {
+        grid-template-columns: repeat(5, 1fr);
     }
 
 }
