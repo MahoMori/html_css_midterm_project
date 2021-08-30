@@ -198,6 +198,12 @@ ul {
 
 .product-showcase .img-row ul li figure figcaption {
     margin-top: 10px;
+    cursor: pointer;
+}
+
+.product-showcase .img-row ul li figure figcaption:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 .view-more-button {
